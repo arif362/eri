@@ -1,3 +1,60 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.impact{
+	background: #FE0000;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+.impact-content{
+	.impact-content-item {
+
+		width: 21.2rem;
+		position: relative;
+
+		.content-photo{
+			img{
+				width: 21.2rem;
+				height: 10rem;
+			}
+		}
+
+		.impact-content-text {
+				left: 26px;
+				width: 85%;
+				margin: auto;
+				background: #CACACA;
+				padding-top: 15px;
+				padding-left: 32px;
+				padding-right: 15px;
+				padding-bottom: 15px;
+				position: absolute;
+				top: 148px;
+				padding: 10px;
+				box-shadow: 5px 10px #E8E8E8;
+
+			.title{
+
+			}
+			.details{
+
+			}
+		}
+	}
+
+	.view-more{
+		padding-top: 11rem;
+
+	}
+}
+		.dialouge{
+				width: 42%;
+				margin: auto;
+				padding: 10px;
+				h2{
+				    font-size: 20px;
+    				font-weight: bold;
+				}
+		}
