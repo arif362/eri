@@ -1,3 +1,39 @@
-.eri-logo{
-	background: #fff;
+.top-header {
+	width: 100%;
+	background: #009E40;
+	border-bottom: 4px solid #fff;
+
+	.eri-logo{
+		background: #fff;
+		width: 28%;
+		margin: auto;
+	 .slogan{
+	 	span{
+	 		color: #33006E;
+	 	}
+	 }
+	}
+
+.btn-primary{
+	background-color:#fff !important;
+	color: #00B63C !important;
+	border-color:#fff !important;
+	border-radius: 0px !important;
+	}
 }
+
+.landing_bg_image{
+	background-image: url(landing_main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menu-list{
+    width: 63%;
+    margin: auto;
+    background: #FE0000;
+   .nav-link{
+   		color: #fff !important;
+   }
+}
+
+
