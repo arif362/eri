@@ -23,7 +23,7 @@
 }
 
 .landing_bg_image{
-	background-image: url(landing_main.jpg);
+	background: asset_url('landing_main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
