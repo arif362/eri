@@ -18,7 +18,6 @@
 	background-color:#fff !important;
 	color: #00B63C !important;
 	border-color:#fff !important;
-	border-radius: 0px !important;
 	}
 }
 
@@ -30,10 +29,26 @@
 .menu-list{
     width: 63%;
     margin: auto;
-    background: #FE0000;
+    background: linear-gradient(130deg, red 70%, green 25%);
    .nav-link{
    		color: #fff !important;
    }
+   .btn{
+     border: 1px solid #fff;
+     color: #fff;
+   }
+	.btn:hover {
+		border: 1px solid #fff;
+		color: #fff;
+	}
+	.mobile-in-menu{
+		padding-left: 5rem!important;
+	}
+	.donate-btn{
+		padding-top: 6px;
+		padding-left: 25px;
+	}
+
 }
 
 
